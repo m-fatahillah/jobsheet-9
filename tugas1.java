@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class tugas1 {
     public static void main(String[] args) {
         int n;
@@ -13,9 +12,8 @@ public class tugas1 {
             System.out.print("input nilai mhs ke " + (i+1) + ": ");
             nilaiMhs[i] = input.nextInt();
             total = total + nilaiMhs[i];
-
-
         }
+
         double rata2 = total/n;
         System.out.println("rata2" + rata2 ) ;
 
@@ -28,10 +26,9 @@ public class tugas1 {
             if (nilaiMhs [i] < min){
                 min = nilaiMhs[i]; 
             }
- 
+
         }
         System.out.println(max);
         System.out.println(min);    
     }
-    
 }
